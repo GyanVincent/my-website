@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  background-color: #0a0a0a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-container{
+  display: flex;
+  gap: 80px;
+  margin-left: 80px;
+}
+
+.social-media-handle-edit{
+  display: inline-block;
+  width: 30px;
+  border-radius: 20px;
+  margin-top: 18px;
+}
+
+.paragraph-container{
+  width: 550px;
+  margin-top: 30px;
+  color: white;
+}
+
+.about-me{
+  text-align: center;
+  margin-bottom: 40px;
+  display: inline-block;
+  color: white;
+  border-bottom-width: 2px;
+  border-bottom-color: red;
+  border-bottom-style: solid;
+}
+
+.div-about{
+   text-align: center;
+}
+
+.social-media-handle{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.paragraph-edit{
+  margin-bottom: 30px;
+  font-size: 20px;
+}

@@ -1,0 +1,156 @@
+p{
+  color:white;
+
+}
+
+body{
+  margin: 0;
+  background-color: #0a0a0a;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 50px;
+}
+.my-info{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-image{
+  object-fit: cover;
+  margin-right: 5px;
+  width: 60px;
+  border-radius: 50px;
+  }
+
+.my-image-and-name{
+  display: flex;
+  align-items: center;
+}
+
+.my-contact-info{
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+
+  transition: background-color 0.15s;
+}
+a:hover{
+  /*background-color: rgb(210, 42, 42);*/
+  border: 1px solid red;
+  
+
+}
+
+.second-section{
+  text-align: center;
+  margin-top: 70px;
+  width: 300px;
+  margin-left: 38%;
+}
+
+.second-image{
+  width: 60px;
+  border-radius: 80px;
+}
+
+.exp-p2{
+  font-size: 28px;
+  line-height: 30px;
+}
+.exp-p1{
+  font-size: 11px;
+}
+
+.first-button{
+ border-radius: 0;
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-width: solid;
+ background-color: #0a0a0a17;
+ color: white;
+ border-color:rgb(33, 31, 31);
+}
+
+
+.spons-container{
+  background-color: rgba(255, 255, 255, 0.043);
+  margin-top: 50px;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.spons-edit{
+  display: flex;
+  align-items: center;
+}
+
+.collaborate-txt{
+  width: 300px;
+  text-align: center;
+  margin-left: 38%;
+  margin-top: 50px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.skills{
+  margin-top: 30px;
+ 
+  
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap: 10px;
+  
+}
+
+.skill-boxes{
+  background-color: rgba(255, 255, 255, 0.043);
+  width: 100px;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right:  60px;
+  padding-bottom: 20px;
+
+  transition: background-color 0.15s;
+  transition: opacity 0.15s;
+}
+
+.skill-boxes:hover{
+  background-color: white;
+  opacity: 0.8;
+}
+
+.skill-header-edit{
+  font-size: 14px;
+  color: red;
+
+  transition: font-wight 0.15s;
+}
+.skill-header-edit:hover{
+  font-weight: bolder;
+}
+
+.skill-p{
+  font-size: 12px;
+  width: 150px;
+
+  transition: font-wight 0.15s;
+  transition: color 0.15s;
+}
+.skill-p:hover{
+  color:black;
+  font-weight: bolder;
+}
